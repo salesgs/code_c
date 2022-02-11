@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+float metro,dec,mil,cent,i,calc;
+
+ //conversão em decimetros centimetros e milimetros//
+
+printf("Digite a metragem que desejar saber as conversão \n");
+ scanf("%f",&metro);
+i=0;
+
+     while(i<1){
+     i++;
+      calc=metro*10; // conversão em decimetros
+      printf("O valor dessa metragem em decimetros eh de %.2f \n",calc);
+     
+	  calc=metro*100; // conversão em centimetros
+      printf("O valor dessa metrage em centimetros eh de %.2f \n",calc); 
+     
+      calc=metro*1000;
+       
+      printf("O valor dessa metragem em milimetros eh de %.2f \n",calc);
+      }
+
+
+return 0;
+}
